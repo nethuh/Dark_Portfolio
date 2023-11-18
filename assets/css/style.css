@@ -158,7 +158,7 @@ nav{
 
 }
 #about{
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 5%;
 }
 .about .about-content {
@@ -223,36 +223,37 @@ nav{
     margin-bottom: -24px;
 }
 /*Skill*/
-#skill .progress .progress-bar-danger
-{
-    background: #D43F52;
-}
-#skill .text-top
-{
-    padding-top: 50px;
-}
 
-#skill small
-{
-    font-weight: bold;
-    float: right;
-}
-#skill .progress
-{
-   width: 100%;
-    border-radius: 4px;
-    background: #ffffff;
-    height: 4px;
-}
-#skill{
-    width: 600px;
-    padding-left: 60px;
-}
-#skill span{
-    font-weight: bold;
-    display: block;
-    padding-bottom: 20px;
-}
+/*#skill .progress .progress-bar-danger*/
+/*{*/
+/*    background: #D43F52;*/
+/*}*/
+/*#skill .text-top*/
+/*{*/
+/*    padding-top: 50px;*/
+/*}*/
+
+/*#skill small*/
+/*{*/
+/*    font-weight: bold;*/
+/*    float: right;*/
+/*}*/
+/*#skill .progress*/
+/*{*/
+/*   width: 100%;*/
+/*    border-radius: 4px;*/
+/*    background: #ffffff;*/
+/*    height: 4px;*/
+/*}*/
+/*#skill{*/
+/*    width: 600px;*/
+/*    padding-left: 60px;*/
+/*}*/
+/*#skill span{*/
+/*    font-weight: bold;*/
+/*    display: block;*/
+/*    padding-bottom: 20px;*/
+/*}*/
 .progress-bar-danger {
     background-color: #d9534f;
 }
@@ -283,12 +284,22 @@ nav{
     width: 100%;
     position: relative;
 }
-
+.about .about-content .skills .skill-item .small {}
 .about .about-content .skills .skill-item .progress .progress-in {
     position: absolute;
     left: 0;
     height: 100%;
     top: 0;
     border-radius: 4px;
-    background-color: #D43F52;
+    background-color: #d7243f;
+}
+
+/*................Services................*/
+#services{
+    background-color: black;
+    margin-top: 25px;
+}
+.heading h2{
+    margin-left: 100%;
+    margin-top: 35px;
 }
