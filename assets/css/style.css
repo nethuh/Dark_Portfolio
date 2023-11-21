@@ -410,15 +410,22 @@ nav{
     margin-top: 30px;
     margin-left: 5%;
 }
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0;
+}
 .project {
     width: 25vw;
-    height: 28vh;
+    height: 33vh;
     margin: 3vh 5vw;
     background-size: cover;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease-out;
+
 }
 
 .project:hover {
@@ -441,3 +448,60 @@ nav{
     transform: translateY(0);
 
 }
+
+.project-container>div:nth-child(1){
+    background-image: url("../img/project/Hostel.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container>div:nth-child(2){
+    background-image: url("../img/project/BlueOcean.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container>div:nth-child(3){
+    background-image: url("../img/project/CherryClothing.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container>div:nth-child(4){
+    background-image: url("../img/project/CarRet.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+
+.project-about{
+    position: relative;
+    height: 22vh;
+    width: 35vw;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.project-about>h5:nth-child(1){
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.4vw;
+    font-size: 1.2vw;
+    font-weight: 900;
+    margin: auto;
+}
+.project-about>h1:nth-child(2){
+    font-size: 1.5vw;
+    margin-top: 2.5vh;
+}
+.project-about>p{
+    font-size: 0.9vw;
+    opacity: 40%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.project-about>p:hover{
+    transition: 0.3s;
+    opacity: 100%;
+}
+
