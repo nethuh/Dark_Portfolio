@@ -425,3 +425,19 @@ nav{
     transform: translateY(-4vh);
     box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.7);
 }
+.project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 1vw;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-out;
+}
+
+.project:hover .project-overlay {
+    transform: translateY(0);
+
+}
