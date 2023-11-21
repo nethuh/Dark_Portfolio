@@ -417,9 +417,9 @@ nav{
     margin-top: 0;
 }
 .project {
-    width: 25vw;
+    width: 20vw;
     height: 33vh;
-    margin: 3vh 5vw;
+    margin: 3vh 3vw;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -449,30 +449,7 @@ nav{
 
 }
 
-.project-container>div:nth-child(1){
-    background-image: url("../img/project/Hostel.png");
-    background-size: cover;
-    background-position: center;
-    border-radius: 3vh;
-}
-.project-container>div:nth-child(2){
-    background-image: url("../img/project/BlueOcean.png");
-    background-size: cover;
-    background-position: center;
-    border-radius: 3vh;
-}
-.project-container>div:nth-child(3){
-    background-image: url("../img/project/CherryClothing.png");
-    background-size: cover;
-    background-position: center;
-    border-radius: 3vh;
-}
-.project-container>div:nth-child(4){
-    background-image: url("../img/project/CarRet.png");
-    background-size: cover;
-    background-position: center;
-    border-radius: 3vh;
-}
+
 
 .project-about{
     position: relative;
@@ -505,3 +482,33 @@ nav{
     opacity: 100%;
 }
 
+.project-container>div:nth-child(1){
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container>div:nth-child(2){
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container>div:nth-child(3){
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container>div:nth-child(4){
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container>div:nth-child(5){
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container>div:nth-child(6){
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
