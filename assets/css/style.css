@@ -410,3 +410,18 @@ nav{
     margin-top: 30px;
     margin-left: 5%;
 }
+.project {
+    width: 25vw;
+    height: 28vh;
+    margin: 3vh 5vw;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.project:hover {
+    transform: translateY(-4vh);
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.7);
+}
