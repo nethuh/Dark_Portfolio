@@ -151,6 +151,41 @@ nav{
 
 }
 
+.intro-button-container {
+    display: flex;
+    margin-top: 76vh;
+    margin-left: 47vw;
+    animation: scaling 3s;
+}
+
+.intro-button {
+    display: inline-block;
+    padding: 1vw 4vh;
+    padding-right: 1.4vw;
+    padding-left: 1.4vw;
+    border: solid #707070;
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease;
+
+}
+.intro-button:hover {
+    scale: 1.1;
+    border: solid #da2843;
+}
+
+.intro-button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+.intro-button>i{
+    text-align: right;
+    padding-left: 1vw;
+}
+
 
 /*................About................*/
 .row {
