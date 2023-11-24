@@ -38,6 +38,46 @@ body{
     position: absolute;
     margin-bottom: 0;
 }
+
+.social-media>li>a {
+    display: inline-block;
+    position: relative;
+    margin: 2.2vw;
+    color: white;
+    animation: scaling 3s;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media>li>a:hover {
+    transform: scale(1.1);
+}
+
+.social-media>li>a>i {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vw;
+    animation: pulse 1s ease-in-out infinite;
+}
+.social-media>li{
+    list-style-type: none;
+}
+.social{
+    height: 9vh;
+    position: relative;
+    bottom: -10%;
+}
+.social-media{
+    padding-left: 36%;
+    position: relative;
+    top: 56%
+}
+.social-media>li{
+    position: relative;
+    height: 9vh;
+    padding: 0;
+    text-align: center;
+}
+
 .intro-button-container {
     display: flex;
     margin-top: 70vh;
