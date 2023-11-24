@@ -310,6 +310,10 @@ nav{
     background-color: #d7243f;
 }
 
+.skill-item .small{
+    margin-left: 430px;
+}
+
 /*................Services................*/
 #services{
     background-color: black;
