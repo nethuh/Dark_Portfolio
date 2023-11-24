@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/themify-icons/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="normalize.css">
+    <link href="assets/aos/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic"
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -285,10 +286,12 @@
 
 <script src="assets/js/main.js"></script>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/aos/aos.js "></script>
 
 <script>
-    AOS.init();
+    $(document).ready(function () {
+        AOS.init();
+    });
 </script>
 </body>
 </html>
