@@ -80,8 +80,8 @@ body{
 
 .intro-button-container {
     display: flex;
-    margin-top: 70vh;
-    margin-left: 45vw;
+    margin-top: 55vh;
+    margin-left: 59vw;
     animation: scaling 3s;
 }
 
