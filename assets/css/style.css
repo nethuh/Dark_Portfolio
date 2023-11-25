@@ -537,3 +537,11 @@ nav{
     background-position: center;
     border-radius: 3vh;
 }
+
+
+/*................Contact................*/
+
+.contact .heading1{
+    margin-top: 79px;
+    margin-left: 5%;
+}
