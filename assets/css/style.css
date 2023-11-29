@@ -588,6 +588,7 @@ nav {
 .contact .heading1 {
     margin-top: 79px;
     margin-left: 5%;
+    margin-bottom: 60px;
 }
 
 .contact .contact-info {
@@ -618,9 +619,4 @@ nav {
     line-height: 25px;
     color: rgba(255, 255, 255, 0.85);
     font-weight: 400;
-}
-.contact .col-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 6rem;
 }
