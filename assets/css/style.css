@@ -4,7 +4,8 @@
 html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     color: #999;
@@ -12,6 +13,7 @@ body{
     overflow-x: hidden;
     line-height: 1.5;
 }
+
 @media (min-width: 1024px) {
     #header {
         background-attachment: fixed;
@@ -19,7 +21,7 @@ body{
 
 }
 
-.header{
+.header {
     height: 600px;
     min-height: 700px;
     background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/Home3.JPEG);
@@ -31,7 +33,8 @@ body{
     color: white;
     margin-top: -19px;
 }
-.header aside{
+
+.header aside {
     margin-left: 900px;
     font-size: 35px;
     margin-top: 120px;
@@ -39,7 +42,7 @@ body{
     margin-bottom: 0;
 }
 
-.social-media>li>a {
+.social-media > li > a {
     display: inline-block;
     position: relative;
     margin: 2.2vw;
@@ -48,30 +51,34 @@ body{
     transition: transform 0.3s ease-in-out;
 }
 
-.social-media>li>a:hover {
+.social-media > li > a:hover {
     transform: scale(1.1);
 }
 
-.social-media>li>a>i {
+.social-media > li > a > i {
     position: absolute;
     transform: translate(-50%, -50%);
     font-size: 2.5vw;
     animation: pulse 1s ease-in-out infinite;
 }
-.social-media>li{
+
+.social-media > li {
     list-style-type: none;
 }
-.social{
+
+.social {
     height: 9vh;
     position: relative;
     bottom: -10%;
 }
-.social-media{
+
+.social-media {
     padding-left: 36%;
     position: relative;
     top: 56%
 }
-.social-media>li{
+
+.social-media > li {
     position: relative;
     height: 9vh;
     padding: 0;
@@ -99,6 +106,7 @@ body{
     transition: all 0.3s ease;
 
 }
+
 .intro-button:hover {
     scale: 1.1;
     border: solid #da2843;
@@ -108,7 +116,8 @@ body{
     transform: translateY(2px);
     box-shadow: none;
 }
-.intro-button>i{
+
+.intro-button > i {
     text-align: right;
     padding-left: 1vw;
 }
@@ -133,13 +142,14 @@ body{
     left: 0;
     width: 100%;
 }
+
 .visible-title {
     visibility: visible;
 }
 
-nav{
+nav {
     background: rgb(21, 21, 21);
-    box-shadow : 0px 4px 8px 2px rgb(0, 0, 0);
+    box-shadow: 0px 4px 8px 2px rgb(0, 0, 0);
     height: 65px;
     width: 100%;
     z-index: 40;
@@ -147,7 +157,8 @@ nav{
     font-size: 19px;
     margin-top: -10px;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     padding: 0;
     list-style: none;
@@ -158,10 +169,11 @@ nav{
 
 }
 
-.navbar li{
+.navbar li {
     position: relative;
     margin-top: 12px;
 }
+
 /*nav > ul > li {*/
 /*    display: inline-block;*/
 /*    cursor: pointer;*/
@@ -186,9 +198,10 @@ nav{
     color: #ffffff;
     white-space: nowrap;
     transition: 0.3s;
-    text-decoration: none!important;
+    text-decoration: none !important;
 
 }
+
 .navbar a i,
 .navbar a:focus i {
     font-size: 12px;
@@ -199,7 +212,7 @@ nav{
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
     color: #da2843;
 }
 
@@ -211,12 +224,14 @@ nav{
     margin-right: -15px;
     position: relative;
 }
+
 .about .about-content .personal-info {
     flex: 0 0 50%;
     max-width: 60%;
     margin-top: 40px;
     box-sizing: border-box;
 }
+
 .padd-15 {
     padding-right: 15px;
     padding-left: 15px;
@@ -224,10 +239,12 @@ nav{
     margin: 0;
 
 }
-#about{
+
+#about {
     margin-top: 30px;
     margin-left: 5%;
 }
+
 .about .about-content {
     flex: 0 0 100%;
     max-width: 100%;
@@ -281,6 +298,7 @@ nav{
     margin-top: 15px;
 
 }
+
 .personal-info {
     width: 50%;
 }
@@ -289,6 +307,7 @@ nav{
     font-size: 14px;
     margin-bottom: -24px;
 }
+
 /*Skill*/
 
 .progress-bar-danger {
@@ -321,7 +340,10 @@ nav{
     width: 100%;
     position: relative;
 }
-.about .about-content .skills .skill-item .small {}
+
+.about .about-content .skills .skill-item .small {
+}
+
 .about .about-content .skills .skill-item .progress .progress-in {
     position: absolute;
     left: 0;
@@ -331,21 +353,23 @@ nav{
     background-color: #d7243f;
 }
 
-.skill-item .small{
+.skill-item .small {
     margin-left: 430px;
 }
 
 /*................Services................*/
-#services{
+#services {
     background-color: black;
     margin-top: 25px;
     height: 640px;
 
 }
-.heading h2{
+
+.heading h2 {
     margin-left: 100%;
     margin-top: 35px;
 }
+
 /*.services-content{*/
 /*    display: flex;*/
 /*    justify-content: center;*/
@@ -378,69 +402,80 @@ nav{
 /*    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);*/
 /*}*/
 
-.services-content{
+.services-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
 }
-.services-box{
+
+.services-box {
     padding: 20px;
     width: 260px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    border-radius:0.5rem;
+    border-radius: 0.5rem;
     box-shadow: 0 2px 7px;
     background-color: #222222;
 }
-.services-box .bx{
+
+.services-box .bx {
     padding-top: 2px;
     font-size: 54px;
     color: #f3223d;
 }
-.services-box h3{
+
+.services-box h3 {
     font-size: 1rem;
     font-weight: 600;
     margin: 0.3rem 0 0.4rem;
     color: white;
 }
-.services-box p{
+
+.services-box p {
     font-size: 16px;
     font-weight: 500;
     color: white;
 }
-.services-box:hover{
+
+.services-box:hover {
     background: #393939;
 }
-.services-box:hover h3{
+
+.services-box:hover h3 {
     color: #f3223d;
 }
-.services-box:hover p{
+
+.services-box:hover p {
     color: #fff;
 }
-.services-box:hover .bx{
+
+.services-box:hover .bx {
     color: #f3223d;
 }
-.services-box:hover p{
-    color: #fff ;
+
+.services-box:hover p {
+    color: #fff;
 }
 
 
 /*................Projects................*/
 
-.projects .heading1{
+.projects .heading1 {
     margin-top: 30px;
     margin-left: 5%;
 }
+
 .project-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 0;
 }
+
 .project {
     width: 20vw;
     height: 33vh;
@@ -457,6 +492,7 @@ nav{
     transform: translateY(-4vh);
     box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.7);
 }
+
 .project-overlay {
     position: absolute;
     bottom: 0;
@@ -475,8 +511,7 @@ nav{
 }
 
 
-
-.project-about{
+.project-about {
     position: relative;
     height: 22vh;
     width: 35vw;
@@ -484,7 +519,8 @@ nav{
     left: 50%;
     transform: translateX(-50%);
 }
-.project-about>h5:nth-child(1){
+
+.project-about > h5:nth-child(1) {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.4vw;
@@ -492,47 +528,55 @@ nav{
     font-weight: 900;
     margin: auto;
 }
-.project-about>h1:nth-child(2){
+
+.project-about > h1:nth-child(2) {
     font-size: 1.5vw;
     margin-top: 2.5vh;
 }
-.project-about>p{
+
+.project-about > p {
     font-size: 0.9vw;
     opacity: 40%;
     transition: 0.3s;
     cursor: pointer;
 }
-.project-about>p:hover{
+
+.project-about > p:hover {
     transition: 0.3s;
     opacity: 100%;
 }
 
-.project-container>div:nth-child(1){
+.project-container > div:nth-child(1) {
     background-size: cover;
     background-position: center;
     border-radius: 3vh;
 }
-.project-container>div:nth-child(2){
+
+.project-container > div:nth-child(2) {
     background-size: cover;
     background-position: center;
     border-radius: 3vh;
 }
-.project-container>div:nth-child(3){
+
+.project-container > div:nth-child(3) {
     background-size: cover;
     background-position: center;
     border-radius: 3vh;
 }
-.project-container>div:nth-child(4){
+
+.project-container > div:nth-child(4) {
     background-size: cover;
     background-position: center;
     border-radius: 3vh;
 }
-.project-container>div:nth-child(5){
+
+.project-container > div:nth-child(5) {
     background-size: cover;
     background-position: center;
     border-radius: 3vh;
 }
-.project-container>div:nth-child(6){
+
+.project-container > div:nth-child(6) {
     background-size: cover;
     background-position: center;
     border-radius: 3vh;
@@ -541,9 +585,23 @@ nav{
 
 /*................Contact................*/
 
-.contact .heading1{
+.contact .heading1 {
     margin-top: 79px;
     margin-left: 5%;
+}
+
+.contact .contact-info {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact .contact-info .icon {
+    display: inline-block;
+}
+.contact .contact-info .icon .fa {
+    font-size: 25px;
+    color: #d7243f;
 }
 .contact .col-container {
     display: grid;
