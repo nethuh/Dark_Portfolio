@@ -585,12 +585,32 @@ nav {
 
 /*................Contact................*/
 
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+
 .contact .heading1 {
     margin-top: 79px;
     margin-left: 5%;
     margin-bottom: 60px;
 }
+.contact-title {
+    color: #da2843;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
 
+.contact-sub-title {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
 .contact .contact-info {
     flex: 0 0 10%;
     max-width: 15%;
@@ -599,13 +619,16 @@ nav {
     margin-left: 10%;
 
 }
+
 .contact .contact-info .icon {
     display: inline-block;
 }
+
 .contact .contact-info .icon .fa {
     font-size: 25px;
     color: #d7243f;
 }
+
 .contact .contact-info h4 {
     font-size: 18px;
     font-weight: 700;
@@ -620,11 +643,13 @@ nav {
     color: rgba(255, 255, 255, 0.85);
     font-weight: 400;
 }
+
 .contact .contact-form {
     flex: 0 0 100%;
     max-width: 100%;
     margin-left: 55px;
 }
+
 .contact .contact-form .col-6 {
     flex: 0 0 44%;
     max-width: 50%;
@@ -638,6 +663,7 @@ nav {
 .contact .contact-form .form-item {
     margin-bottom: 30px;
 }
+
 .contact .contact-form .form-item .form-control {
     width: 80%;
     height: 30px;
@@ -646,7 +672,7 @@ nav {
     border: 1px solid #383838;
     padding: 10px 25px;
     font-size: 16px;
-    color: #504e70;
+    color: white;
     transition: all 0.3s ease;
 }
 
@@ -669,10 +695,9 @@ nav {
 
 }
 
-.row1{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 40px;
-    margin-right: 40px;
-    position: relative;
+.contact .title{
+    width: 55px;
+    height: 4px;
+    background-color: #da2843;
+    margin-top: -20px;
 }
