@@ -545,3 +545,8 @@ nav{
     margin-top: 79px;
     margin-left: 5%;
 }
+.contact .col-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 6rem;
+}
