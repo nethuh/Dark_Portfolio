@@ -383,10 +383,12 @@ nav {
     margin-top: 25px;
     height: 640px;
 }
+
 .heading h2 {
     margin-left: 100%;
     margin-top: 35px;
 }
+
 .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -583,6 +585,7 @@ nav {
     margin-left: 5%;
     margin-bottom: 60px;
 }
+
 .contact-title {
     color: #da2843;
     text-align: center;
@@ -596,6 +599,7 @@ nav {
     font-size: 15px;
     margin-bottom: 60px;
 }
+
 .contact .contact-info {
     flex: 0 0 10%;
     max-width: 15%;
@@ -669,9 +673,52 @@ nav {
     height: 140px;
 }
 
-.title{
+.title {
     width: 55px;
     height: 4px;
     background-color: #da2843;
     margin-top: -20px;
+}
+
+
+/*------------footer---------------*/
+
+footer {
+    border-top: 1px solid #090909;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+footer hr {
+    width: 100px;
+}
+
+.container .footer .social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container .footer .social-icon li{
+    display: inline-block;
+    list-style: none;
+}
+.container .footer .social-icon li a
+{
+    border-radius: 50%;
+    color: #606060;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    margin-right: 10px;
+}
+.container .footer .social-icon li a:hover
+{
+    color: #D43F52;
+}
+
+.container .footer p {
+    margin-left: 5%;
 }
