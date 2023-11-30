@@ -41,7 +41,10 @@ body {
     position: absolute;
     margin-bottom: 0;
 }
-
+.header aside h6{
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 20px;
+}
 .social-media > li > a {
     display: inline-block;
     position: relative;
@@ -73,9 +76,9 @@ body {
 }
 
 .social-media {
-    padding-left: 36%;
+    padding-left: 33%;
     position: relative;
-    top: 56%
+    top: 54%
 }
 
 .social-media > li {
