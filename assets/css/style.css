@@ -389,20 +389,20 @@ nav {
 
 .heading h2 {
     margin-left: 100%;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 
 .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 2rem;
 }
 
 .services-box {
     padding: 20px;
-    width: 260px;
+    width: 230px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,7 +426,7 @@ nav {
 }
 
 .services-box p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: white;
 }
@@ -681,6 +681,12 @@ nav {
     height: 4px;
     background-color: #da2843;
     margin-top: -20px;
+}
+.title1 {
+    width: 55px;
+    height: 4px;
+    background-color: #da2843;
+    margin-top: 81px;
 }
 
 
