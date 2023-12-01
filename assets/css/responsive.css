@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+  /* Header */
+  .header {
+    height: 400px;
+    min-height: 616px;
+    width: 112%;
+  }
+
+  /* Header aside */
+  .header aside {
+    margin-left: 20%;
+  }
+
+  /* Social Media */
+  .social-media > li > a {
+    margin: 10px;
+  }
+
+  .social-media > li > a > i {
+    font-size: 2em;
+  }
+
+  /* Intro Button Container */
+  .intro-button-container {
+    margin-top: 40vh;
+    margin-left: 40%;
+  }
+
+  /* Intro Button */
+  .intro-button {
+    padding: 1em 2em;
+    font-size: 1.5em;
+  }
+
+
+}
