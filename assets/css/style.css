@@ -41,10 +41,12 @@ body {
     position: absolute;
     margin-bottom: 0;
 }
-.header aside h6{
+
+.header aside h6 {
     color: rgba(255, 255, 255, 0.87);
     font-size: 20px;
 }
+
 .social-media > li > a {
     display: inline-block;
     position: relative;
@@ -682,6 +684,7 @@ nav {
     background-color: #da2843;
     margin-top: -20px;
 }
+
 .title1 {
     width: 55px;
     height: 4px;
@@ -710,12 +713,12 @@ footer hr {
 
 }
 
-.container .footer .social-icon li{
+.container .footer .social-icon li {
     display: inline-block;
     list-style: none;
 }
-.container .footer .social-icon li a
-{
+
+.container .footer .social-icon li a {
     border-radius: 50%;
     color: #606060;
     text-decoration: none;
@@ -723,8 +726,8 @@ footer hr {
     text-align: center;
     margin-right: 10px;
 }
-.container .footer .social-icon li a:hover
-{
+
+.container .footer .social-icon li a:hover {
     color: #D43F52;
 }
 
