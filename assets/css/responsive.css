@@ -3,14 +3,17 @@
   .header {
     height: 400px;
     min-height: 616px;
-    width: 112%;
-  }
+    width: 101%;
+}
 
   /* Header aside */
   .header aside {
-    margin-left: 20%;
+    margin-left: 49%;
   }
-
+  .social-media {
+    padding-left: 11%;
+    top: 63%;
+  }
   /* Social Media */
   .social-media > li > a {
     margin: 10px;
@@ -32,5 +35,12 @@
     font-size: 1.5em;
   }
 
+  .navbar ul{
+    margin-left: 525px;
+  }
+
+  .services-box{
+    width: 180px;
+  }
 
 }
