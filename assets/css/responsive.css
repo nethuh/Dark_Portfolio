@@ -9,14 +9,15 @@
   /* Header aside */
   .header aside {
     margin-left: 49%;
+    margin-top: 259px;
   }
   .social-media {
-    padding-left: 11%;
+    padding-left: 22%;
     top: 63%;
   }
   /* Social Media */
   .social-media > li > a {
-    margin: 10px;
+    margin: 35px;
   }
 
   .social-media > li > a > i {
@@ -25,14 +26,14 @@
 
   /* Intro Button Container */
   .intro-button-container {
-    margin-top: 31vh;
-    margin-left: 46%;
+    margin-top: 29vh;
+    margin-left: 48%;
   }
 
   /* Intro Button */
   .intro-button {
     padding: 1em 2em;
-    font-size: 1.5em;
+    font-size: 1.0em;
   }
 
   .navbar ul{
