@@ -2,7 +2,7 @@
   /* Header */
   .header {
     height: 400px;
-    min-height: 616px;
+    min-height: 810px;
     width: 101%;
 }
 
@@ -25,8 +25,8 @@
 
   /* Intro Button Container */
   .intro-button-container {
-    margin-top: 40vh;
-    margin-left: 40%;
+    margin-top: 31vh;
+    margin-left: 46%;
   }
 
   /* Intro Button */
@@ -41,6 +41,11 @@
 
   .services-box{
     width: 180px;
+  }
+
+  .project{
+    height: 13vh;
+    width: 27vw;
   }
 
 }
