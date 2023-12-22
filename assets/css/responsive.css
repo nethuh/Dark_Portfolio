@@ -87,4 +87,36 @@
         height: 17vh;
     }
 
+    .row1 {
+        margin-left: 83px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        height: 600px;
+        min-height: 845px;
+        width: 131%;
+        background-size: 120% 120%;
+    }
+
+    .about .about-content .about-text {
+        flex: 0 0 124%;
+        max-width: 196%;
+    }
+
+    nav{
+        width: 132%;
+    }
+    .navbar ul {
+        margin-left: 501px;
+    }
+
+    .about .about-content .personal-info {
+        flex: 0 0 60%;
+        max-width: 103%;
+
+    }
 }
