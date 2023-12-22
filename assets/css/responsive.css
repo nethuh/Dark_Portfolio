@@ -119,4 +119,16 @@
         max-width: 103%;
 
     }
+
+    #services {
+        width: 134%;
+    }
+
+    .project {
+        width: 26vw;
+        height: 12vh;
+    }
+    .project-container{
+        margin-left: 4%;
+    }
 }
