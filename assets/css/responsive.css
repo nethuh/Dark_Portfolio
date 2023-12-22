@@ -57,9 +57,6 @@
 }
 
 
-
-
-
 @media (max-width: 1440px) {
     /* Header */
     .header {
@@ -77,6 +74,17 @@
     .social-media {
         padding-left: 28%;
         top: 55%;
+    }
+
+    .intro-button-container {
+        margin-top: 26vh;
+        margin-left: 56vw;
+    }
+
+    /* Projects */
+    .project {
+        width: 20vw;
+        height: 17vh;
     }
 
 }
