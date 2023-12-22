@@ -107,9 +107,10 @@
         max-width: 196%;
     }
 
-    nav{
+    nav {
         width: 132%;
     }
+
     .navbar ul {
         margin-left: 501px;
     }
@@ -128,7 +129,24 @@
         width: 26vw;
         height: 12vh;
     }
-    .project-container{
+
+    .project-container {
         margin-left: 4%;
+    }
+
+    .row1 {
+        margin-right: -74px;
+    }
+
+    .contact-title {
+        margin-left: 40%;
+    }
+
+    .contact-sub-title {
+        margin-left: 44%;
+    }
+
+    footer{
+        margin-left: 44%;
     }
 }
