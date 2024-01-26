@@ -469,8 +469,8 @@ nav {
 }
 
 .project {
-    width: 20vw;
-    height: 33vh;
+    width: 17vw;
+    height: 28vh;
     margin: 3vh 3vw;
     background-size: cover;
     position: relative;
@@ -490,7 +490,7 @@ nav {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(49, 2, 2, 0.6);
     color: #fff;
     padding: 1vw;
     transform: translateY(100%);
@@ -569,6 +569,17 @@ nav {
 }
 
 .project-container > div:nth-child(6) {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+
+.project-container > div:nth-child(7) {
+    background-size: cover;
+    background-position: center;
+    border-radius: 3vh;
+}
+.project-container > div:nth-child(8) {
     background-size: cover;
     background-position: center;
     border-radius: 3vh;
